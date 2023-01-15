@@ -14,5 +14,12 @@ func main() {
 
 	kdv3 := 25
 	fmt.Println(kdv3)
-	fmt.Printf("veri tipi: %T", kdv3)
+	fmt.Printf("veri tipi: %T\n", kdv3)
+
+	var durum bool
+
+	var ad1 = "Koray"
+	var ad2 = "Koray"
+	durum = ad1 == ad2
+	fmt.Println(durum)
 }
