@@ -7,5 +7,5 @@ func main() {
 	var kdv int = 18
 	fmt.Println("Hello world")
 	fmt.Println(metin)
-	fmt.Println(kdv)
+	fmt.Println(100 + 100*kdv/100)
 }
